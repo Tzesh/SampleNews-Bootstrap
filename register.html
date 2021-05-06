@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="The latest sample news, Sample News">
+	<meta name="subject" content="The latest sample news, Sample News">
+	<meta name="keywords" content="Sample, News, Latest, Sport, Travel, Culture">
+	<meta name="author" content="Sample News">
+	<meta name="language" content="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex" />
+	<title>Sample News | Register</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@500&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Oxygen:wght@300&display=swap"
+		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/83fdf682f5.js" crossorigin="anonymous"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="icon" href="img/icon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap-style.css">
+</head>
+
+<body class="bg-black">
+	<header class="bg-black">
+		<h1>Sample News</h1>
+	</header>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-orange">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#" data-bs-toggle="popover" title="We are really grateful"
+				data-bs-content="You are right place for sample news! Thanks for choosing us...">
+				<img src="img/icon.png" width="30" height="30" class="d-inline-block align-top" alt=""></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+				aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarScroll">
+				<ul class="navbar-nav me-auto my-2 my-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="home.html"><i class="fas fa-home"></i> Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="news.html"><i class="fas fa-newspaper"></i> News</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sports.html"><i class="fas fa-futbol"></i> Sports</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="travel.html"><i class="fas fa-suitcase-rolling"></i> Travel</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="culture.html"><i class="fas fa-hotel"></i> Culture</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">More</a>
+						<ul class="dropdown-menu bg-orange" aria-labelledby="navbarScrollingDropdown">
+							<li><a class="dropdown-item" href="about-us.html"><i class="fa fa-info"></i>
+									About Us</a>
+							</li>
+							<li><a class="dropdown-item" href="contact-us.html"><i class="fa fa-envelope"></i> Contact
+									Us</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sign-in.html"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+					</li>
+				</ul>
+				<form class="d-flex" action="https://www.google.com/search" method="get" name="searchform"
+					target="_blank">
+					<input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-dark" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<main class="bg-whiteyorange pt-4 pb-4 main-background">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-12 col-md-8 col-xl-6 ">
+					<div class="register-section w-100 justify-content-center p-4">
+						<section>
+							<h4>Welcome to Sample News</h4>
+							<br>
+							<h5>Please fulfill the necessary information to register.</h5>
+						</section>
+						<article>
+							<form action="thanks.html" method="post" class="form-inline" id="form"
+								enctype="multipart/form-data">
+								<div class="form-floating mb-3">
+									<input type="text" class="form-control" id="name" name="name"
+										placeholder="Full name" required autofocus>
+									<label for="name">Full name</label>
+								</div>
+								<div class="form-floating mb-3">
+									<input type="text" class="form-control" id="username" name="username"
+										placeholder="Username" required>
+									<label for="username">Username</label>
+								</div>
+								<div class="form-floating mb-3">
+									<input type="password" class="form-control" id="password" name="password"
+										placeholder="Password" required>
+									<label for="password">Password</label>
+								</div>
+								<div class="form-floating mb-3">
+									<input type="tel" class="form-control" id="telephone" name="telephone"
+										placeholder="Telephone (11 digits)" pattern="[0-9]{11}" required>
+									<label for="telephone">Telephone (11 digits)</label>
+								</div>
+								<div class="form-floating mb-3">
+									<input type="date" class="form-control" id="birthday" name="birthday" required>
+									<label for="birthday">Birthday</label>
+								</div>
+								<div class="form-check form-check-inline mb-3">
+									<input type="radio" name="sex" class="btn-check" id="male" value="male"
+										autocomplete="off">
+									<label class="btn btn-secondary" for="male">Male</label>
+
+									<input type="radio" name="sex" class="btn-check" id="female" value="female"
+										autocomplete="off">
+									<label class="btn btn-secondary" for="female">Female</label>
+								</div>
+								<div class="form-floating mb-3">
+									<textarea rows="4" cols="30" class="form-control" name="message" id="message"
+										form="form" placeholder="About yourself" required></textarea>
+									<label for="message">About yourself</label>
+								</div>
+								<label for="ppFile">Profile photo: </label>
+								<input type="file" class="form-control" id="ppFile" name="filename">
+								Mark your interests: <br>
+								<div class="form-check form-check-inline">
+									<input type="checkbox" class="btn-check" name="cars" value="cars" id="cars">
+									<label for="cars" class="btn btn-secondary m-1">Autos</label>
+									<input type="checkbox" class="btn-check" name="comedy" value="comedy" id="comedy">
+									<label for="comedy" class="btn btn-secondary m-1">Comedy</label>
+									<input type="checkbox" class="btn-check" name="education" value="education"
+										id="education">
+									<label for="education" class="btn btn-secondary m-1">Education</label>
+									<input type="checkbox" class="btn-check" name="films" value="films" id="films">
+									<label for="films" class="btn btn-secondary m-1">Films</label>
+									<input type="checkbox" class="btn-check" name="gaming" value="gaming" id="gaming">
+									<label for="gaming" class="btn btn-secondary m-1">Gaming</label>
+									<input type="checkbox" class="btn-check" name="music" value="music" id="music">
+									<label for="music" class="btn btn-secondary m-1">Music</label>
+									<input type="checkbox" class="btn-check" name="politics" value="politics"
+										id="politics">
+									<label for="politics" class="btn btn-secondary m-1">Politics</label>
+									<input type="checkbox" class="btn-check" name="pets" value="pets" id="pets">
+									<label for="pets" class="btn btn-secondary m-1">Pets</label>
+									<input type="checkbox" class="btn-check" name="science" value="science"
+										id="science">
+									<label for="science" class="btn btn-secondary m-1">Science</label>
+									<input type="checkbox" class="btn-check" name="sports" value="sports" id="sports">
+									<label for="sports" class="btn btn-secondary m-1">Sports</label>
+
+								</div>
+								<br>
+								<button type="submit" class="btn btn-outline-dark w-100">Submit</button>
+								<input type="reset" class="btn btn-outline-dark w-100" value="Reset">
+							</form>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="container bg-black pt-4 pb-4">
+		<div class="row">
+			<div class="col-sm-12 col-xl-4">
+				<button class="btn btn-secondary w-100" type="button" data-bs-toggle="collapse"
+					data-bs-target="#multiCollapse1" aria-expanded="true" aria-controls="multiCollapse1">About
+					us</button></div>
+			<div class="col-sm-12 col-xl-4">
+				<button class="btn btn-secondary w-100" type="button" data-bs-toggle="collapse"
+					data-bs-target="#multiCollapse2" aria-expanded="true" aria-controls="multiCollapse2">Contact
+					us</button></div>
+			<div class="col-sm-12 col-xl-4">
+				<button class="btn btn-secondary w-100" type="button" data-bs-toggle="collapse"
+					data-bs-target="#multiCollapse3" aria-expanded="true" aria-controls="multiCollapse3">Designed by
+					Tzesh</button></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-xl-4 multi-collapse show" id="multiCollapse1">
+				<div class="card card-body">
+					<h3>About us</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum atque possimus perferendis
+						magnam?
+						Odit pariatur minima expedita aut dolorum numquam incidunt iusto accusamus esse amet.</p>
+				</div>
+			</div>
+			<div class="col-sm-12 col-xl-4 multi-collapse show" id="multiCollapse2">
+				<div class="card card-body">
+					<h3>Contact us</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur temporibus doloribus,
+						aspernatur, laboriosam beatae voluptates dolorum, velit doloremque vitae cumque totam fuga nihil
+						nostrum dolor.</p>
+					<p>E-mail: mail@ugurdindar.com</p>
+					<p><a href=""><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-instagram"></i></a><a
+							href=""><i class="fab fa-twitter"></i></a></p>
+				</div>
+			</div>
+			<div class="col-sm-12 col-xl-4 multi-collapse show" id="multiCollapse3">
+				<div class="card card-body">
+					<h3>Designed by Tzesh</h3>
+					<p>Designed by <a href="https://www.ugurdindar.com" style="color: gray;">Uğur Dindar (Tzesh)</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script>
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+			return new bootstrap.Tooltip(tooltipTriggerEl)
+		});
+
+		var popover = new bootstrap.Popover(document.querySelector('.navbar-brand'), {
+			container: 'body'
+		});
+	</script>
+
+</body>
+
+</html>
