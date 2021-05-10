@@ -91,9 +91,11 @@
 						<h4><a href="https://www.goal.com/en-gb/news/why-is-ozil-wearing-no-67-at-fenerbahce/evi802o72kht1e4x7qebc4ljl#:~:text=67%20shirt%3F,third%2Dgeneration%20Turkish%2DGerman."
 								data-bs-toggle="tooltip" data-bs-placement="right"
 								title="Click for the original article">Why did Ozil choose the No. 67 shirt?</a></h4>
-						<div class="embed-responsive embed-responsive-16by9 container">
+						<div class="embed-responsive container">
+							<div class="ratio ratio-16x9">
 							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_AikekauvEQ"
 								width=100% id="player" allowfullscreen></iframe>
+							</div>
 							<img src="img/sports-image.jfif" class="news-image" alt="Ozil footage">
 							<img src="img/sports-image2.jfif" class="news-image" alt="Ozil footage 2">
 							<img src="img/sports-image3.jpg" class="news-image" alt="Ozil footage 3">
@@ -163,15 +165,6 @@
 		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 			return new bootstrap.Tooltip(tooltipTriggerEl)
 		});
-		window.addEventListener("load", playerSizer);  /* Resize on load */
-		window.addEventListener("resize", playerSizer);  /* Resize on change in window size */
-
-		/* Resize function */
-		function playerSizer() {
-			var player = document.getElementById("player");  /* Element ID */
-			var width = player.offsetWidth;  /* Get width */
-			player.style.height = (width * 0.5625) + "px";  /* Aspect ratio */
-		}
 
 		var popover = new bootstrap.Popover(document.querySelector('.navbar-brand'), {
 			container: 'body'
